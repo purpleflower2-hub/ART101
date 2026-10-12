@@ -1,0 +1,21 @@
+body {
+    background: #7ee5d9;
+    padding: 50px;
+}
+
+h1,
+h2,
+h3 {
+    color: #4b438d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+body {
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
