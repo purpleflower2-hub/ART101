@@ -1,0 +1,85 @@
+body {
+  background-image: url("163878.jpg");
+}
+
+body {
+background-image: url("163878.jpg");
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center; 
+height: 100vh; 
+}
+
+h1 {
+  text-align: center;
+  color:antiquewhite;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: BLKCHCRY;
+  font-size: 50px
+}
+
+p {
+    text-align: center;
+    color: darkgray
+    text-shadow: 2px 2px 4px #a9a9a9;
+    font-family: headstone
+}
+
+@font-face {
+    font-family: BLKCHCRY;
+    src: url(BLKCHCRY.ttf);
+}
+
+@font-face {
+    font-family: headstone;
+    src: url(headstone.ttf);
+}
+
+h3 {
+    font-family: headstone;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.toolbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.toolbar .spacer {
+  flex: 1 1 auto;
+}
+
+.mainpage {
+    display: flex;
+    gap: 20px;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0%;
+}
+
+.clouds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -250px;
+}
+
+.moon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;   
+    height: auto;   
+     z-index: 1;
+}
+
+h1 {
+    position: relative;
+    z-index: 10; 
+}

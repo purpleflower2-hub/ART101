@@ -18,4 +18,73 @@ body {
     font-size: small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-    
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: lightpink;
+    padding: 20px;
+}
+
+.top-section {
+    display:flex
+    gap: 30px
+    align items
+}
+
+#introduction {
+    background: whitesmoke;
+    padding: 20px;
+    border-left: 6px solid purple;
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 90%;
+}
+
+.navigation {
+    background: palegoldenrod;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    font-weight: bold;
+    color: black;
+
+}
+
+a:hover {
+  background-color: purple;
+  font-size: 20px;
+  color: lightblue;
+}
