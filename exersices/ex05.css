@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(26, 80, 146);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    border: bisque;
+    
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

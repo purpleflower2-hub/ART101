@@ -1,0 +1,76 @@
+body {
+  background-image: url("horsestable.int.png");
+}
+
+body {
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center; 
+height: 100vh; 
+}
+
+h1 {
+  text-align: center;
+  color:antiquewhite;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: BLKCHCRY;
+  font-size: 50px;
+  text-shadow: gold;
+}
+
+p {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #a9a9a9;
+    font-family: headstone;
+}
+
+h2 {
+    text-align: center;
+    font-family: headstone;
+    color: antiquewhite;
+    text-shadow: gold;
+    
+}
+
+@font-face {
+    font-family: BLKCHCRY;
+    src: url(BLKCHCRY.ttf);
+}
+
+@font-face {
+    font-family: headstone;
+    src: url(headstone.ttf);
+}
+
+h3 {
+    font-family: headstone;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: gold;
+}
+
+button {
+    background-color: #493629;
+    color: antiquewhite;
+    font-family: headstone;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid #a68b65;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+
+button:hover {
+    background-color: #70523b;
+    border-color: #d4b483;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#show-stable {
+    display: block;
+    margin: 20px auto;
+}

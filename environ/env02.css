@@ -1,9 +1,8 @@
 body {
-  background-image: url("163878.jpg");
+  background-image: url("horsestable.int.png");
 }
 
 body {
-background-image: url("163878.jpg");
 background-size: cover; 
 background-repeat: no-repeat; 
 background-position: center; 
@@ -15,14 +14,23 @@ h1 {
   color:antiquewhite;
   text-shadow: 2px 2px 4px #000000;
   font-family: BLKCHCRY;
-  font-size: 50px
+  font-size: 50px;
+  text-shadow: gold;
 }
 
 p {
     text-align: center;
-    color: darkgray
+    color: antiquewhite;
     text-shadow: 2px 2px 4px #a9a9a9;
-    font-family: headstone
+    font-family: headstone;
+}
+
+h2 {
+    text-align: center;
+    font-family: headstone;
+    color: antiquewhite;
+    text-shadow: gold;
+    
 }
 
 @font-face {
@@ -39,47 +47,25 @@ h3 {
     font-family: headstone;
     text-align: center;
     color: antiquewhite;
+    text-shadow: gold;
 }
 
-.toolbar {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
-.toolbar .spacer {
-  flex: 1 1 auto;
-}
-
-.mainpage {
-    display: flex;
-    gap: 20px;
+button {
+    background-color: #493629;
+    color: antiquewhite;
+    font-family: headstone;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid #a68b65;
+    cursor: pointer;
+    transition: all 0.2 ease;
 }
 
-.main-page {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 0%;
+button:hover {
+    background-color: #70523b;
+    border-color: #d4b483;
 }
 
-.clouds {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: -250px;
-}
-
-.moon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 120px;   
-    height: auto;   
-     z-index: 1;
-}
-
-h1 {
-    position: relative;
-    z-index: 10; 
+button:active {
+    transform: scale(0.95);
 }
