@@ -5,22 +5,44 @@ h1 {
 }
 
 button {
-    color: palevioletred;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-family: AldotheApache;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 35px;
     padding: 15px 32px;
     text-align: center;
     border: bisque;
+    background-color: rgb(219, 19, 19);
     
 }
+
+@font-face {
+    font-family: AldotheApache;
+    src: url(AldotheApache.ttf);
+}
+
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.color-circle {
+   display: inline-block;
+   width: 36px;
+   height: 36px;
+   margin-right: 8px;
+   border: 2px solid black;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+#green  { background-color: green; }
+#orange { background-color: orange; }
+#pink   { background-color: pink; }
+#cyan   { background-color: cyan; }

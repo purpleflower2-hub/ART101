@@ -19,7 +19,7 @@ colorsCount = colorsCount +1;
 console.log(count);
 console.log(colors[colorsCount]);
 
-      buttonText="I was squished " + count + " times and it's now " + colors[colorsCount];
+      buttonText="I was rustled " + count + " times and now its " + colors[colorsCount];
 
       $("#needy-button").html(buttonText);
 
